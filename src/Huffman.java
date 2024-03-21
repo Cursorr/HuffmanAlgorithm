@@ -67,7 +67,7 @@ public class Huffman {
         return priorityQueue.poll();
     }
 
-    // As it's name says
+    // As its name says
     public static void generateHuffmanCodes(Node<Character> root, String codePrefix, HashMap<Character, String> huffmanCodes) {
         if (root == null) return;
 
